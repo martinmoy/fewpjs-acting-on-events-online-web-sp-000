@@ -8,7 +8,7 @@ document.addEventListener("keydown", function(e) {
   }
 
   else {
-    if (e.key === "ArrowRight") {
+     (e.key === "ArrowRight") {
       let rightNumbers = dodger.style.right.replace("px", "");
       let right = parseInt(rightNumbers, 10);
 

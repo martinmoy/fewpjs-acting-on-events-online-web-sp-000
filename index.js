@@ -19,7 +19,7 @@ document.addEventListener("keydown", function(e) {
   if (e.key === "ArrowLeft") {
     moveDodgerLeft();
   }
-  else (e.key === "ArrowLeft") {
+  if (e.key === "ArrowLeft") {
     moveDodgerLeft();
   }
 })
